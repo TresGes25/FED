@@ -1,0 +1,4 @@
+name: FED_venv
+channels:
+  - defaults
+prefix: /opt/anaconda3/envs/FED_venv
