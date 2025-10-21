@@ -1,4 +1,5 @@
 #Script to load and clean the data
+
 import pandas as pd
 
 def load_data(data):
@@ -8,7 +9,4 @@ def load_data(data):
     return pd.read_csv(data)
 
 
-#%%
-df = load_data("Data.csv")
-df.head()
-#%%
+
