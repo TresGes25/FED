@@ -26,3 +26,13 @@ def missing_data(df):
         return df
     
 
+def load_data(path):
+
+    df = read_data(path)
+    df =select_columns(df)
+    df = missing_data(df)
+
+    return df
+
+
+
