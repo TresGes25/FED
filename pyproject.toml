@@ -1,0 +1,15 @@
+[project]
+name = "GDP_data"
+version = "0.1.0"
+description = "A simple Python project"
+
+[python]
+version = "3.12"
+
+[dependencies]
+pandas = ">=2.0"
+numpy = ">=1.26"
+
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
