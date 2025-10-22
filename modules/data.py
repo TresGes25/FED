@@ -11,6 +11,9 @@ def select_columns(df):
     df.rename(columns={"Reference area" : "Country",
                     "TIME_PERIOD" : "Year",
                     "OBS_VALUE" : "GDP (millions USD)"}, inplace=True)
+    
+    df["Year"] = pd.to_datetime(df["Year"])
+
     return df
 
 
