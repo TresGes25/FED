@@ -1,15 +1,28 @@
-# %%
+
 import pandas as pd
 
 def read_data(path):
 
     df = pd.read_csv(path)
+    return df
 
+def select_columns(df):
     df = df[["Reference area", "TIME_PERIOD", "OBS_VALUE"]]
     df.rename(columns={"Reference area" : "Country",
                     "TIME_PERIOD" : "Year",
                     "OBS_VALUE" : "GDP (millions USD)"}, inplace=True)
-
-    print(df.head())
-
     return df
+
+
+
+def missing_data(df):
+
+    num_missing = df.isnull().sum()
+
+    if num_missing > 0:
+        df_clean = df.dropna()
+        return df_clean
+    else:
+        return df
+    
+
