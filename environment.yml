@@ -3,7 +3,6 @@ channels:
   - defaults
 dependencies:
   - anyio=4.10.0
-  - appnope=0.1.4
   - argon2-cffi=21.3.0
   - argon2-cffi-bindings=25.1.0
   - asttokens=3.0.0
@@ -51,10 +50,7 @@ dependencies:
   - jupyterlab_pygments=0.3.0
   - jupyterlab_server=2.27.3
   - jupyterlab_widgets=3.0.15
-  - libcxx=20.1.8
   - libffi=3.4.4
-  - libgfortran=5.0.0
-  - libgfortran5=11.3.0
   - libiconv=1.16
   - libmpdec=4.0.0
   - libopenblas=0.3.30
@@ -70,7 +66,6 @@ dependencies:
   - nbconvert-core=7.16.6
   - nbconvert-pandoc=7.16.6
   - nbformat=5.10.4
-  - ncurses=6.5
   - nest-asyncio=1.6.0
   - notebook=7.4.5
   - notebook-shim=0.2.4
@@ -106,7 +101,6 @@ dependencies:
   - pyzmq=27.1.0
   - qtconsole=5.7.0
   - qtpy=2.4.3
-  - readline=8.3
   - referencing=0.30.2
   - requests=2.32.5
   - rfc3339-validator=0.1.4
