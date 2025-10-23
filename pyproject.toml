@@ -13,3 +13,16 @@ numpy = ">=1.26"
 [build-system]
 requires = ["setuptools>=42"]
 build-backend = "setuptools.build_meta"
+
+#project_root/
+#├─ pyproject.toml
+#├─ README.md
+#└─ fed/
+#   ├─ __init__.py
+#   ├─ modules/
+#   │  └─ module1...
+#   ├─ Data/
+#   │  └─ my_data.csv
+#Would allow:
+#[tool.setuptools.package-data]
+#"fed" = ["Data/*"]
