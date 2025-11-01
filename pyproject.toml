@@ -11,7 +11,7 @@ pandas = ">=2.0"
 numpy = ">=1.26"
 
 [build-system]
-requires = ["setuptools>=42"]
+requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 #project_root/

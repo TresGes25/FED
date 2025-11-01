@@ -11,7 +11,7 @@ def select_columns(df):
     df = df.rename(columns={"Reference area" : "Country",
                     "TIME_PERIOD" : "Year",
                     "OBS_VALUE" : "GDP (millions USD)"})
-    
+
     df["Year"] = pd.to_datetime(df["Year"], format="%Y")
 
     return df
@@ -25,7 +25,7 @@ def missing_data(df):
         return df_clean
     else:
         return df
-    
+
 def load_data(path):
 
     df = read_data(path)
@@ -33,6 +33,3 @@ def load_data(path):
     df = missing_data(df)
 
     return df
-
-
-

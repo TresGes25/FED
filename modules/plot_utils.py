@@ -10,4 +10,3 @@ def make_charts(dataframe):
     ax.legend
     plt.tight_layout()
     plt.show()
-
