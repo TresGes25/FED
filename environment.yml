@@ -170,6 +170,9 @@ dependencies:
   - zeromq=4.3.5=h2c7f8f0_1
   - zlib=1.3.1=h5f15de7_0
   - zstd=1.5.7=h817c040_0
+  - pre-commit==2.22.2
   - pip:
       - gdp-data==0.1.0
 prefix: /opt/anaconda3/envs/FED_venv
+
+# Briefer yaml: only explicitly imported packages and perhaps pre-commit
