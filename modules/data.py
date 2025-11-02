@@ -1,7 +1,8 @@
 
 import pandas as pd
 
-def read_data(path):
+# add type hints AND docstrings
+def read_data(path : int) -> int:
 
     df = pd.read_csv(path)
     return df
