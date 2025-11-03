@@ -2,3 +2,4 @@
 *.egg-info/
 modules/__pycache__/
 .idea/
+*.csv
