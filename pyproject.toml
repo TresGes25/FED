@@ -3,7 +3,7 @@ requires = ['setuptools', 'setuptools-scm', 'wheel']
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "GDP_data" #essentially a 'modules' package
+name = "GDP_data" #must be called the same as the folder actually containing the modules
 version = "0.1.0"
 description = "A simple Python project"
 
